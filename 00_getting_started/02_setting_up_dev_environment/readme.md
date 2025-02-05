@@ -1,53 +1,77 @@
-🚀 **Setting Up TypeScript on Your Machine**  
-The first step in mastering TypeScript is getting your development environment ready! 🌐 Let’s go through the process of installing and verifying the TypeScript compiler. No worries if you're new to this – we’ll break it down for you step by step! 🛠️
 
-🔧 **Prerequisites**  
-Before we start, make sure Node.js is installed on your computer. Why? Because we’ll be using Node Package Manager (NPM), which comes with Node.js, to install TypeScript.
+# 🚀 **Setting Up TypeScript on Your Machine**
 
-**Check if Node.js is Installed**  
-1. Open your terminal (Command Prompt, PowerShell, or a terminal emulator like iTerm).  
-2. Run the following command:  
-   `node -v`  
-   - If you see a version number (e.g., v16.18.0), Node.js is already installed. ✅  
-   - If not, visit the [Node.js official website](https://nodejs.org/) and download the latest version for your OS. Install it, then rerun the command to confirm it’s installed.
+Ready to dive into TypeScript? Let’s get your development environment set up so you can start coding! 🌐
 
-📥 **Installing the TypeScript Compiler**  
-Once Node.js is installed, use npm to install TypeScript. Just follow these steps:
+## 🔧 **Prerequisites**
+
+Before starting, you’ll need **Node.js** installed on your machine to use **npm** for installing TypeScript.
+
+### ✅ **Check if Node.js is Installed:**
+1. Open your terminal (Command Prompt, PowerShell, or iTerm).
+2. Run:  
+   ```bash
+   node -v
+   ```
+   - If you see a version number (e.g., `v16.18.0`), Node.js is installed! 🎉
+   - If not, head over to the [Node.js official website](https://nodejs.org/) and install it.
+
+---
+
+## 📥 **Install the TypeScript Compiler**
+
+Once Node.js is ready, follow these steps to install TypeScript globally on your system:
 
 1. Open your terminal and run:  
-   `npm i -g typescript`  
-   The `-g` flag ensures TypeScript is installed globally, making it accessible from anywhere on your machine. 🌍  
-2. This will download and install the TypeScript compiler.  
-3. To verify the installation, check the TypeScript version by running:  
-   `tsc -v`  
-   If you see something like "Version 5.7.2," TypeScript is installed successfully. 🎉
+   ```bash
+   npm i -g typescript
+   ```
+   This installs TypeScript globally! 🌍
+2. Verify the installation by running:  
+   ```bash
+   tsc -v
+   ```
+   If you see a version number (e.g., `Version 5.7.2`), TypeScript is good to go! 🎉
 
-🖥️ **Choosing an IDE**  
-For this course, we’ll be using **Visual Studio Code (VS Code)** – a powerful, beginner-friendly IDE. 💻  
+---
 
-1. Download VS Code from the [official website](https://code.visualstudio.com/).  
-2. Install and launch it on your computer.
+## 🖥️ **Choosing an IDE**
 
-🛠️ **Configuring VS Code for TypeScript**  
-1. **Install the TypeScript Extension**  
-   - Open VS Code.  
-   - Go to the Extensions Marketplace (click the square icon on the left or press `Ctrl+Shift+X`).  
-   - Search for and install the "TypeScript Language Features" extension. 🔍
+For this course, we’ll use **Visual Studio Code (VS Code)** – a popular, easy-to-use editor.
 
-2. **Set Up a New Project**  
-   - Create a new folder for your TypeScript projects.  
-   - Open the folder in VS Code (File → Open Folder).  
-   - Add a new file, e.g., `index.ts` (remember, all TypeScript files use the `.ts` extension).
+1. Download **VS Code** from the [official website](https://code.visualstudio.com/).
+2. Install and launch it.
 
-3. **Compile TypeScript Code**  
-   - In the terminal, navigate to your project folder:  
-     `cd path/to/your/project`  
-   - To compile your TypeScript file, run:  
-     `tsc index.ts`  
-   This will generate a JavaScript file (`index.js`) that you can execute with Node.js.
+---
 
-📦 **Important Notes on TypeScript Versions**  
-- **Version Compatibility**: Don’t worry if the TypeScript version you’re using differs slightly from the one used in this course. 🌟 The core concepts remain the same across versions.  
-- Use `tsc -v` anytime to check the installed version of TypeScript.
+## 🛠️ **Configuring VS Code for TypeScript**
 
-Now you’re all set up and ready to start coding with TypeScript! 🎉
+### 1. **Install the TypeScript Extension:**
+- Open VS Code.
+- Go to the Extensions Marketplace (click the square icon or press `Ctrl+Shift+X`).
+- Search for **"TypeScript Language Features"** and install it. 🔍
+
+### 2. **Create a New Project:**
+- Create a new folder for your TypeScript projects.
+- Open it in VS Code (File → Open Folder).
+- Create a new `.ts` file, e.g., `index.ts`.
+
+### 3. **Compile TypeScript Code:**
+- Open the terminal in VS Code and navigate to your project folder:
+  ```bash
+  cd path/to/your/project
+  ```
+- Compile your `.ts` file:
+  ```bash
+  tsc index.ts
+  ```
+  This generates a `index.js` file, which you can run with Node.js.
+
+---
+
+## 📦 **Important Notes:**
+
+- **Version Compatibility**: Don’t worry if your TypeScript version differs from this guide. The core concepts stay the same. 🌟
+- Use `tsc -v` anytime to check your TypeScript version.
+
+---
