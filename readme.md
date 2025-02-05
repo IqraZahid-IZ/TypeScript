@@ -1,8 +1,8 @@
-###🎉 Welcome to TypeScript! 🎉
+🎉 Welcome to TypeScript! 🎉
 
-TypeScript is a typed superset of JavaScript that brings static typing to the dynamic world of JavaScript. It adds type safety while keeping all the cool features you love in JavaScript! 🖥️✨
+TypeScript is a typed superset of JavaScript that brings static typing to the dynamic world of JavaScript. It adds type safety while keeping all the cool features you love in JavaScript!
 
-###🔑 Why Use TypeScript?
+🔑 Why Use TypeScript?
 
 💻 JavaScript + Types: TypeScript allows you to catch errors earlier by adding types to your JavaScript code.
 🔍 Type Safety: You can define variables and function arguments with specific types, like string, number, or boolean to avoid unexpected errors.
